@@ -1,8 +1,8 @@
-//═══════[© 2022 nexusNw Inc.]════════\\
+//═══════[© 2022 kingsley Inc.]════════\\
 
 //
 //
-//                      𝙰𝚜𝚝𝚊 𝚋𝚢 𝚗𝚎𝚡𝚞𝚜𝚗𝚠
+//                      𝙰𝚜𝚝𝚊 𝚋𝚢 kingsley
 //
 //                     𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙-𝙼𝙳 𝙱𝚘𝚝
 //
@@ -22,26 +22,26 @@ global.APIKeys = {
 }
 
 //═══════[modification]════════\\
-global.owner = ['263715183177'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
-global.pemilik = ['263715183177'] //another owner number
-global.premium = ['263715183177'] //premium number
-global.pengguna = 'Juice-Bot' //username
-global.botnma = 'Juice-Bot//bot name
-global.ownernma = 'Juice KiD' //owner name
-global.packname = 'Juice KiD' //sticker package name
-global.author = 'By Juice KiD' //sticker author name
+global.owner = ['265889976968'] //owner number, u can put multiple owner number, within quotations and seperated by comma.
+global.pemilik = ['265889976968'] //another owner number
+global.premium = ['265889976968'] //premium number
+global.pengguna = 'kingsley-Bot' //username
+global.botnma = 'kingsley-Bot//bot name
+global.ownernma = 'kingsley' //owner name
+global.packname = 'kingsley😎' //sticker package name
+global.author = 'By kingsley👩‍💻' //sticker author name
 global.sessionName = 'session' //session name
-global.prefa = ['#','!','/',''] //prefix
+global.prefa = ['-',',',',',''] //prefix
 global.sp = '⭔' //design
 global.mess = {
     success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
+    admin: 'This Feature Is Only For Admins←_←!',
     botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner',
+    owner: 'This Feature Is Only For kingsley😎',
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature in only for the bot number',
-    wait: 'In process...',
+    wait: 'In process kingsley 😎 on the way...',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
 global.limitawal = {
