@@ -1231,8 +1231,8 @@ case 'antilink':
                                     id: 'sc'
                                 }
                             }]
-                      fatihgans = fs.readFileSync('./Media/astapic.jpg')
-                      let txt = `「 Asta Broadcast 」\n\n${text}`
+                      fatihgans = fs.readFileSync('./Media/AnimeX.jpg')
+                      let txt = `「 kingsley Broadcast 」\n\n${text}`
                       NexusNwInc.send5ButImg(i, txt, NexusNwInc.user.name, fatihgans, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1240,7 +1240,7 @@ case 'antilink':
             break
             case 'bc': case 'broadcast': case 'bcall': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} Asta here`
+                if (!text) throw `Where is the text?\n\nExample : ${prefix + command} kingsley here`
                 let anu = await store.chats.all().map(v => v.id)
                 reply(`Send Broadcast To ${anu.length} Chat\nIn ${anu.length * 1.5} second`)
 		for (let yoi of anu) {
@@ -1248,7 +1248,7 @@ case 'antilink':
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Script🔖',
-                                    url: 'https://github.com/Eximinati/Ari-Ani-md'
+                                    url: 'https://github.com/ife250/Ari-Ani-md'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1256,8 +1256,8 @@ case 'antilink':
                                     id: 'owner'
                                 }
                             }]
-                      fatihgans = fs.readFileSync('./Media/astapic.jpg')
-                      let txt = `「 Asta Broadcast 」\n\n${text}`
+                      fatihgans = fs.readFileSync('./Media/AnimeX.jpg')
+                      let txt = `「 kingsley Broadcast 」\n\n${text}`
                       NexusNwInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 		}
 		reply('Broadcast Success')
@@ -2374,30 +2374,30 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
                     case 'bug': case 'report': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
-                    	NexusNwInc.sendMessage(`923087880256@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	NexusNwInc.sendMessage(`265889976968@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break 
-case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'asta':{
+case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'kingsley':{
                 anu = `Hi ${pushname}
-Asta With You Forever!! 👻🤚`
+Kingsley With You Forever!! 👻🤚`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./Media/astapic.jpg')},
-                            hydratedFooterText: `Asta-MD`,
+                            jpegThumbnail: fs.readFileSync('./Media/AnimeX.jpg')},
+                            hydratedFooterText: `kingsley-MD`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Profile 📍',
-                                    url: 'https://github.com/Eximinati'
+                                    url: 'https://github.com/ife250'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/Eximinati/Ari-Ani-md'
+                                    url: 'https://github.com/ife250/Ari-Ani-md'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2495,12 +2495,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./Media/astapic.jpg')},
-                            hydratedFooterText: `Ohayo🤚 ${pushname}
-How Are You? 😊
+                            jpegThumbnail: fs.readFileSync('./Media/AnimeX.jpg')},
+                            hydratedFooterText: `sup😎🤚 ${pushname}
+Kingsley here 😜 How Are You? 😊
 
 
-❏「 INFO BOT 」
+❏「 INFO 👩‍💻 kingsley BOT 」
 
 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
@@ -2516,12 +2516,12 @@ Please Select Button Below
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Profile 📍',
-                                    url: 'https://github.com/Eximinati'
+                                    url: 'https://github.com/ife250'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/Eximinati/Ari-Ani-md'
+                                    url: 'https://github.com/ife250/Ari-Ani-md'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2551,7 +2551,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Konichiwa  ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_Asta-MD_",
+                    footerText: "_kingsley-MD_",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -3333,8 +3333,8 @@ break
 break
 case 'tqtt': 
 reply(`Thanks to
-Aku (Me)
-And all friends who helped assemble this sexy script !!!`)
+Juice kid 👩‍💻 (Me 😜 kingsley),
+Carter 😎 And all friends who helped assemble this sexy script !!!`)
 break
             default:
                 if (budy.startsWith('=>')) {
