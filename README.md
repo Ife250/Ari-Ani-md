@@ -30,6 +30,16 @@
 
 - [`1st GC`](https://chat.whatsapp.com/FXDZOyXwdsK4vuOLPGZKpX)
 
+## 👩‍💻I hope it works 🤔 don't judge just a noob 🙂💔
+ 
+<!-- Start via Heroku -->
+<b><details><summary>Start via Heroku</summary></b>
+
+* Scan QR In Your Whatsapp From [Here](https://replit.com/@nexusNw/Md-Scanner?outputonly=1&lite=1)
+* Fork This Repo By Clicking [Here](https://github.com/Ife250/Ari-Ani-md)/fork)
+* then Deploy The Bot From [Here](https://heroku.com/deploy?template=https://github.com/Ife250/Ari-Ani-md)
+* Wait 5-10 Min To Deploy 
+* After Deploying On The Worker And Check The Logs
 
 </p>
 
@@ -133,5 +143,3 @@ Please give this repo a ⭐ if it helped you.
 ## ALBEDO
 
 This is a lovely project by Eximinati. After forking give it a star. 🌟 star it. If you need help then click the following Whatsapp icons and join our groups and contact an OWNER 
-
- 
