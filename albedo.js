@@ -2176,7 +2176,7 @@ View list of message with ${prefix}listmsg`)
 				let buttons = [{
                                 urlButton: {
                                     displayText: 'Report Bug🐛',
-                                    url: 'https://wa.me/923087880256?text=hello+bro+i+found+a+bug+in+your+bot'
+                                    url: 'https://wa.me/265889976968text=hello+bro+kingsley+i+found+a+bug+in+your+bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2368,7 +2368,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
             case 'owner': case 'creator': {
             NexusNwInc.sendContact(m.chat, global.pemilik, m)
-           const devsound = fs.readFileSync('./Media/botdev.mp3') //u can change the music in Media folder
+           const devsound = fs.readFileSync('./Media/kingbot1.mp3') //u can change the music in Media folder
            NexusNwInc.sendMessage(m.chat, { audio: devsound, mimetype: 'audio/mp4', ptt: true, quoted: m })
             }
             break
