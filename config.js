@@ -48,7 +48,7 @@ global.limitawal = {
     premium: "Infinity", //premium user limit
     free: 28684 //free user limit
 }
-global.thumb = fs.readFileSync('./Media/astapic.jpg')
+global.thumb = fs.readFileSync('./Media/AnimeX.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
